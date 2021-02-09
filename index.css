@@ -1,28 +1,21 @@
 :root {
-    background: #EE9FCB ;
-    --main-color: #D5F5ED;
+    background: pink;
+    --main-color: white;
     overflow: hidden;
 }
 
 h1 {
-    color: rgba(40, 19, 182, 0.687)
+    color: black;
     animation-duration: 3s;
     animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+    display: flex;
+    justify-content: center;
 }
 
 h4 {
-    background-color: #58A896;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
     color: var(--main-color);
 }
 
@@ -38,6 +31,7 @@ h4 {
     /* width: 100px; */
     background-color: blue;
     text-align: center;
+    border: 15px solid black;
 }
 
 .item-center {
@@ -46,5 +40,6 @@ h4 {
     padding-top: 55px;
     margin: 5px;
     text-align: center;
+    border: 15px solid black;
 }
 
